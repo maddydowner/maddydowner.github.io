@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    margin: opx;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    width: 16%;
+    font-family: "Poiret One";
+    white-space: nowrap;
+    font-size: 55px;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #f06292;
+    color: #f8bbd0;
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: #f8bbd0;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid #f8bbd0;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+p {
+    display: flex;
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poiret One";
+    font-style: oblique;
+}
+
+h3 {
+    display: flex;
+    font-size: smaller;
+    font-style: oblique;
+}
+
+body > footer {
+    background-color: #f06292;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-size: 55px;
+    font-family: "Poiret One";
+    color: #f8bbd0;
+    padding: 8px;
+    width: 16%;
+}
+
+.navbutton2 {
+    padding: 10px 10px;
+    justify-content: center;
+    display: block;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#footer-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer > h1 {
+    flex: 1 1 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#footer-ul > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#footer-ul > li {
+    margin: 5px 0;
+    width: 100%;
+}
+
+#footer-ul > div > li > a {
+    color: #f8bbd0;
+    text-decoration: none;
+}
+
+#rightlinks-ul {
+    color: #f8bbd0;
+    text-decoration: none;
+    font-size: smaller;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#sidebar-image {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-top: 10px;
+}
+
+a {
+    color: #f8bbd0;
+    text-decoration: none;
+    line-height: 2;
+}
